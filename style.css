@@ -1,0 +1,291 @@
+*{
+    padding: 0rem;
+    list-style: none;
+    margin: 0rem;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background-image: url(bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 130vh;
+    font-family: poppins;
+    font-weight: 680;
+    font-size: 16px;
+}
+.title{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 2rem;
+    font-weight: lighter;
+    flex: 1;
+    /* padding-left: 7rem */
+}
+ul{
+    display: flex;
+    align-items: center;
+}
+li{
+   padding: 1rem;
+   position: relative;
+}
+
+.navbar ul li::after{
+    content: "";
+    height: 2px;
+    width: 0rem;
+    background: #009968;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition: 0.2s;
+
+}
+.navbar ul li:hover::after{
+    width: 90%;
+}
+.context{
+    padding: 1rem;
+    flex: 5;
+}
+button{
+    width: 100px;
+    padding: 5px;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #009968;
+    background: transparent;
+    color:black;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+span{
+    background: #009968;;
+    height: 100%;
+    width: 0%;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 00.2s;
+
+}
+button:hover span{
+    width: 100%;
+}
+button:hover{
+    border: none;
+
+}
+/* .logo{
+    background-color:white;
+    width: 27rem;
+    height: 10rem;
+} */
+/* .gif{
+    min-height: 40vh;
+    width: 100%;
+    background-color: #000;
+    background-image: url(https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: white;
+    padding: 0 8%;
+   
+} */
+nav{
+        border-bottom: 1px solid black ;
+        position: fixed;
+        width: 100%;
+        top: 0%;
+        left: 0%;
+        height: 100px;
+        /* padding: 10px 90px; */
+        box-sizing: border-box;
+        background:#93B5C6;
+        
+}
+/* .navbar li {
+    display: inline-block;
+}
+.navbar li  a{
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 20px;
+}
+.navbar li  a:hover{
+    background: #fff;
+    color: #333; */
+}
+/* .search-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: orangered;
+    height: 40px;
+    border-radius: 40px;
+    padding: 10px;
+
+}
+.search-box:hover > .search-text{
+    width: 240px;
+    padding: 0 6px;
+}
+.search-button{
+    color: #e84118;
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #2f3640;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-text{
+    border: none;
+    background: none;
+    outline: none;
+    float: none;
+    padding: 0;
+    color: white;
+    font-size: 14px;
+    transition: 0.4s;
+    line-height: 50px;
+    width: 0%;
+} */
+
+            /* *{ */
+                padding: 0;
+                margin: 0;
+                font-family: sans-serif;
+                }
+                /* body { */
+                    background: url(login5.jpg) no-repeat;
+                    background-size: cover;  
+                }
+                /* .login-form { */
+                     width: 350px;
+                     top: 50%;
+                    left: 50%;
+                    transform: translate(-50%,-50%);
+                    position: absolute;
+                    color: #fff;
+                }
+                
+                /* .login-form h1 { */
+                    font-size: 40px;
+                    text-align: center;
+                    text-transform: uppercase;
+                    margin: 40px 0;
+                }
+                
+                /* .login-form p{ */
+                   font-size: 20px;
+                   margin: 15px 0;
+                }
+                
+                /* .login-form input{ */
+                    font-size: 16px;
+                    width: 100%;
+                    padding: 15px 10px;
+                    border: 0;
+                    outline: none;
+                    border-radius: 5px;
+                }
+                
+                /* .login-form button { */
+                    font-size: 18px;
+                    font-weight: bold;
+                    margin: 20px 0;
+                    padding: 10px 15px;
+                    width: 50%;
+                    border-radius: 5px;
+                    border: 0;
+                }
+                /* .my button{ */
+                    width: 200px;
+                    height: 50px;
+                    font-size: 30px;
+                }
+                /* .btn1{ */
+                    width: 200px;
+                    height: 50px;
+                    border:none;
+                    color:black;
+                    border-radius: 4px;
+                    transition: ease-out 0.3s;
+                    font-size: 2rem;
+                    outline: none;
+                    border:3px solid #fff;
+                    position: relative;
+                }
+                /* .btn1:hover{ */
+                    color:#fff;
+                    cursor: pointer;
+                    
+            
+                    }
+                /* .btn1:before{ */
+                    transition: 0.5s all ease;
+                    top: 0%;
+                    left:50%;
+                    right:50%;
+                    bottom:0;
+                    opacity:0;
+                    content:'';
+                    background-color: #32fbf2;
+            
+            
+                    }
+                    /* .btn1:hover:before{ */
+                        transition:0.5s all ease;
+                        left:0;
+                        right:0;
+                        opacity:1;
+                        z-index: -1;
+            
+                    }
+                    /* .btn2{ */
+                        width: 200px;
+                        height: 50px;
+                        border:none;
+                        color:black;
+                        border-radius: 4px;
+                        transition: ease-out 0.3s;
+                        font-size: 2rem;
+                        outline: none;
+                        border:3px solid #fff;
+                        position: relative;
+                    }
+                    /* .btn2:hover{ */
+                        color:#fff;
+                        cursor: pointer;
+                        
+                
+                        }
+                    /* .btn2:before{ */
+                        transition: 0.5s all ease;
+                        top: 0%;
+                        left:50%;
+                        right:50%;
+                        bottom:0;
+                        opacity:0;
+                        content:'';
+                        background-color: #32fbf2;
+                
+                
+                        }
+                        /* .btn2:hover:before{ */
+                            transition:0.5s all ease;
+                            left:0;
+                            right:0;
+                            opacity:1;
+                            z-index: -1;
+
